@@ -1,0 +1,12 @@
+.container
+    margin: 50px 0
+    .card
+        margin: 0 2% !important
+        &.infected
+            border-bottom: 7px solid rgba(0, 0, 255, .5)
+        &.recovered
+            border-bottom: 7px solid rgba(0, 255, 0, .5)
+        &.deaths
+            border-bottom: 7px solid rgba(255, 0, 0, .5)
+        @media (max-width: 767px)
+            margin: 0 0 5% !important
